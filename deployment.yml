@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: watchlist
-        image: pkar15/watchlistapp
+        image: pkar15/watchlistapp:1.2
         ports:
         - containerPort: 80
 ---
